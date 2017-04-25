@@ -22,4 +22,8 @@ import UIKit
 	/// DDLRecord content.
 	var recordContent: DDLRecord? { get set }
 
+	/// Customize the WebContent html with custom CSS.
+	///
+	/// - Returns: css style
+	@objc optional func getCustomCssStyle() -> String
 }
