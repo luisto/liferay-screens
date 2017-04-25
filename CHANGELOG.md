@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 
 ### New Features
 * Create loadLoggedUserPortrait method in UserPortraitScreenlet
+* Allow developers override injected CSS in WebContentDisplayScreenlet
 
 ## iOS
 
@@ -22,6 +23,7 @@ All notable changes to this project will be documented in this file.
 
 ### New Features
 * AssetDisplayScreenlet uses FileDisplayScreenlet for ppt, xls and doc files
+* Allow developers override injected CSS in WebContentDisplayScreenlet
 
 ### Refactor
 * Migrate from UIWebView to WKWebView
